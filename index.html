@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Growth Plan Proposal — Pincha Yoga Studio</title>
+    <meta
+      name="description"
+      content="A strategic growth partnership proposal for Pincha Yoga Studio, Dubai."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <!-- Progress Indicator -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#cover" class="nav-brand">
+          <div class="brand-icon">P</div>
+          <div class="brand-text">
+            <span class="brand-primary">Proposal</span>
+            <span class="brand-secondary">Pincha Yoga</span>
+          </div>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#introduction" class="nav-link">Introduction</a>
+          <a href="#approach" class="nav-link">Approach</a>
+          <a href="#scope" class="nav-link">Scope</a>
+          <a href="#timeline" class="nav-link">Timeline</a>
+          <a href="#investment" class="nav-link">Pricing</a>
+        </div>
+
+        <a href="https://calendar.app.google/KpSsn4483WzzGxs1A" class="nav-cta">
+          <span>Schedule a Call</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span class="toggle-line"></span>
+          <span class="toggle-line"></span>
+          <span class="toggle-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-inner">
+        <div class="mobile-menu-header">
+          <span class="mobile-menu-label">Navigation</span>
+          <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        <div class="mobile-menu-links">
+          <a href="#introduction" class="mobile-link">
+            <span class="mobile-link-num">01</span>
+            <span class="mobile-link-text">Introduction</span>
+          </a>
+          <a href="#approach" class="mobile-link">
+            <span class="mobile-link-num">02</span>
+            <span class="mobile-link-text">Approach</span>
+          </a>
+          <a href="#scope" class="mobile-link">
+            <span class="mobile-link-num">03</span>
+            <span class="mobile-link-text">Scope of Work</span>
+          </a>
+          <a href="#timeline" class="mobile-link">
+            <span class="mobile-link-num">04</span>
+            <span class="mobile-link-text">Timeline</span>
+          </a>
+          <a href="#investment" class="mobile-link">
+            <span class="mobile-link-num">05</span>
+            <span class="mobile-link-text">Pricing</span>
+          </a>
+          <a href="#next-steps" class="mobile-link">
+            <span class="mobile-link-num">06</span>
+            <span class="mobile-link-text">Next Steps</span>
+          </a>
+        </div>
+        <div class="mobile-menu-footer">
+          <a
+            href="https://calendar.app.google/KpSsn4483WzzGxs1A"
+            class="mobile-cta"
+          >
+            <span>Schedule a Call</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- Cover Section -->
+      <section class="cover" id="cover">
+        <div class="cover-bg">
+          <div class="cover-gradient"></div>
+          <div class="cover-grid-pattern"></div>
+          <div class="cover-orb cover-orb-1"></div>
+          <div class="cover-orb cover-orb-2"></div>
+          <div class="cover-line cover-line-v1"></div>
+          <div class="cover-line cover-line-v2"></div>
+          <div class="cover-line cover-line-h1"></div>
+        </div>
+
+        <div class="cover-content">
+          <div class="cover-badge">
+            <i data-lucide="lock"></i>
+            <span>Confidential Proposal</span>
+          </div>
+
+          <div class="cover-meta">
+            <div class="meta-item">
+              <span class="meta-label">Prepared For</span>
+              <span class="meta-value">Pincha Yoga Studio</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <span class="meta-label">Date</span>
+              <span class="meta-value" id="coverDate"></span>
+            </div>
+          </div>
+
+          <h1 class="cover-title">
+            <span class="title-line title-reveal">A Growth</span>
+            <span class="title-line title-reveal title-accent"
+              >Plan Proposal</span
+            >
+          </h1>
+
+          <p class="cover-subtitle">
+            Performance marketing, digital infrastructure, and strategic
+            consulting designed to establish Pincha as Dubai's most sought-after
+            yoga destination.
+          </p>
+
+          <div class="cover-features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i data-lucide="target"></i>
+              </div>
+              <span>Acquisition</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i data-lucide="repeat"></i>
+              </div>
+              <span>Retention</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i data-lucide="trending-up"></i>
+              </div>
+              <span>Revenue</span>
+            </div>
+          </div>
+
+          <div class="cover-scroll">
+            <span>Explore Proposal</span>
+            <div class="scroll-mouse">
+              <div class="scroll-wheel"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Introduction Section -->
+      <section class="section" id="introduction">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-label">
+              <span class="label-num">01</span>
+              <span class="label-text">Introduction</span>
+            </div>
+            <h2 class="section-title">The Opportunity</h2>
+          </div>
+
+          <div class="intro-layout">
+            <div class="intro-content reveal">
+              <p class="intro-lead">
+                Pincha Yoga has built something rare in Dubai. A genuine
+                community centered on wellness, mindfulness, and personal
+                growth.
+              </p>
+              <p>
+                The wellness market in Dubai is expanding rapidly. Digital ad
+                spend in the UAE exceeds $1.7 billion with social media
+                penetration at 115%. Yet most yoga studios approach marketing
+                tactically—running ads without infrastructure, tracking without
+                strategy.
+              </p>
+              <p>
+                We propose a different approach: building integrated systems
+                that compound over time. Not just campaigns, but infrastructure.
+                Not just leads, but lifetime members.
+              </p>
+            </div>
+
+            <aside class="intro-stats reveal">
+              <h4 class="stats-title">Dubai Digital Landscape</h4>
+              <div class="stats-grid">
+                <div class="stat-card">
+                  <span class="stat-num">99%</span>
+                  <span class="stat-label">Internet Penetration</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-num">118%</span>
+                  <span class="stat-label">TikTok Reach 18+</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-num">96%</span>
+                  <span class="stat-label">Smartphone Usage</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-num">$1.7B</span>
+                  <span class="stat-label">Digital Ad Spend</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+
+          <div class="compare-grid reveal">
+            <div class="compare-card compare-current">
+              <div class="compare-header">
+                <i data-lucide="alert-circle"></i>
+                <span>Current Challenges</span>
+              </div>
+              <ul class="compare-list">
+                <li>Booking friction losing potential members</li>
+                <li>Limited visibility into marketing ROI</li>
+                <li>No systematic approach to member retention</li>
+                <li>Competitor studios investing in digital</li>
+              </ul>
+            </div>
+            <div class="compare-card compare-future">
+              <div class="compare-header">
+                <i data-lucide="sparkles"></i>
+                <span>Future Outcomes</span>
+              </div>
+              <ul class="compare-list">
+                <li>Seamless booking driving conversions</li>
+                <li>Complete attribution from ad to membership</li>
+                <li>Automated lifecycle marketing building loyalty</li>
+                <li>Market leadership through digital excellence</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Approach Section -->
+      <section class="section section-dark" id="approach">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-label">
+              <span class="label-num">02</span>
+              <span class="label-text">Our Approach</span>
+            </div>
+            <h2 class="section-title">Strategic Framework</h2>
+            <p class="section-desc">
+              We build growth systems, not just campaigns. Each component is
+              engineered to work together, creating compound effects.
+            </p>
+          </div>
+
+          <div class="approach-grid">
+            <article class="approach-card reveal">
+              <div class="approach-icon">
+                <span>A</span>
+              </div>
+              <div class="approach-content">
+                <h3>Member Acquisition</h3>
+                <p>
+                  Strategic paid campaigns across platforms where Dubai's
+                  wellness seekers spend their time—Instagram, TikTok, Google,
+                  and Snapchat.
+                </p>
+                <ul class="approach-list">
+                  <li>Target women actively searching for yoga in Dubai</li>
+                  <li>Build audiences mirroring your best members</li>
+                  <li>Optimize for membership value, not just leads</li>
+                  <li>Creative showcasing Pincha's unique community</li>
+                </ul>
+                <div class="approach-metric">
+                  <span class="metric-label">Expected Impact</span>
+                  <span class="metric-value">35% lower cost per lead</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="approach-card reveal">
+              <div class="approach-icon">
+                <span>B</span>
+              </div>
+              <div class="approach-content">
+                <h3>Data Infrastructure</h3>
+                <p>
+                  Server-side tracking and first-party data collection
+                  maintaining accuracy despite iOS privacy restrictions.
+                </p>
+                <ul class="approach-list">
+                  <li>Know exactly which campaigns drive bookings</li>
+                  <li>Recover lost conversion data from iOS users</li>
+                  <li>Connect booking system directly to ad platforms</li>
+                  <li>Track full journey from click to membership</li>
+                </ul>
+                <div class="approach-metric">
+                  <span class="metric-label">Expected Impact</span>
+                  <span class="metric-value">95%+ attribution accuracy</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="approach-card reveal">
+              <div class="approach-icon">
+                <span>C</span>
+              </div>
+              <div class="approach-content">
+                <h3>Conversion Optimization</h3>
+                <p>
+                  Transform your digital presence into a conversion engine
+                  through systematic testing and UX improvements.
+                </p>
+                <ul class="approach-list">
+                  <li>Identify exactly where visitors drop off</li>
+                  <li>Mobile-first booking experience optimization</li>
+                  <li>A/B testing to continuously improve results</li>
+                  <li>Strategic placement of social proof</li>
+                </ul>
+                <div class="approach-metric">
+                  <span class="metric-label">Expected Impact</span>
+                  <span class="metric-value"
+                    >40%+ booking rate improvement</span
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scope Section -->
+      <section class="section" id="scope">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-label">
+              <span class="label-num">03</span>
+              <span class="label-text">Scope of Work</span>
+            </div>
+            <h2 class="section-title">What We Deliver</h2>
+            <p class="section-desc">
+              A comprehensive suite of services designed to build, launch, and
+              optimize Pincha's digital growth engine.
+            </p>
+          </div>
+
+          <div class="scope-grid">
+            <div class="scope-card reveal">
+              <div class="scope-header">
+                <div class="scope-icon">
+                  <i data-lucide="target"></i>
+                </div>
+                <h3>Performance Marketing</h3>
+              </div>
+              <p>
+                Full-funnel paid advertising across Meta, Google, TikTok &
+                Snapchat optimized for trial bookings and membership
+                conversions.
+              </p>
+              <ul class="scope-list">
+                <li>Campaign strategy & architecture</li>
+                <li>Audience research & targeting</li>
+                <li>Ad creative development</li>
+                <li>Ongoing optimization & testing</li>
+              </ul>
+            </div>
+
+            <div class="scope-card reveal">
+              <div class="scope-header">
+                <div class="scope-icon">
+                  <i data-lucide="activity"></i>
+                </div>
+                <h3>Tracking & Analytics</h3>
+              </div>
+              <p>
+                Server-side tracking infrastructure, conversion API integration,
+                and custom reporting dashboards.
+              </p>
+              <ul class="scope-list">
+                <li>Server-side GTM implementation</li>
+                <li>Meta CAPI & Google Enhanced Conversions</li>
+                <li>Booking system integration</li>
+                <li>Executive reporting dashboard</li>
+              </ul>
+            </div>
+
+            <div class="scope-card reveal">
+              <div class="scope-header">
+                <div class="scope-icon">
+                  <i data-lucide="smartphone"></i>
+                </div>
+                <h3>Website Optimization</h3>
+              </div>
+              <p>
+                Conversion-focused improvements to your website and booking flow
+                ensuring visitors become members.
+              </p>
+              <ul class="scope-list">
+                <li>Conversion funnel audit</li>
+                <li>Mobile experience optimization</li>
+                <li>Page speed improvements</li>
+                <li>A/B testing framework</li>
+              </ul>
+            </div>
+
+            <div class="scope-card reveal">
+              <div class="scope-header">
+                <div class="scope-icon">
+                  <i data-lucide="message-circle"></i>
+                </div>
+                <h3>WhatsApp Automation</h3>
+              </div>
+              <p>
+                Automated messaging flows for booking confirmations, reminders,
+                and re-engagement campaigns.
+              </p>
+              <ul class="scope-list">
+                <li>WhatsApp Business API setup</li>
+                <li>Automated booking confirmations</li>
+                <li>Class reminder sequences</li>
+                <li>Win-back campaigns</li>
+              </ul>
+            </div>
+
+            <div class="scope-card reveal">
+              <div class="scope-header">
+                <div class="scope-icon">
+                  <i data-lucide="heart"></i>
+                </div>
+                <h3>Retention Marketing</h3>
+              </div>
+              <p>
+                Email and messaging sequences designed to nurture trial members
+                into committed practitioners.
+              </p>
+              <ul class="scope-list">
+                <li>Member lifecycle mapping</li>
+                <li>Welcome & onboarding sequences</li>
+                <li>Milestone celebration campaigns</li>
+                <li>Churn prevention triggers</li>
+              </ul>
+            </div>
+
+            <div class="scope-card reveal">
+              <div class="scope-header">
+                <div class="scope-icon">
+                  <i data-lucide="bar-chart-2"></i>
+                </div>
+                <h3>Reporting & Strategy</h3>
+              </div>
+              <p>
+                Clear, actionable reporting and ongoing strategic guidance to
+                ensure ROI.
+              </p>
+              <ul class="scope-list">
+                <li>Weekly performance reports</li>
+                <li>Monthly strategy reviews</li>
+                <li>Quarterly business reviews</li>
+                <li>Real-time dashboard access</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="platforms-bar reveal">
+            <span class="platforms-label">Platforms We Leverage</span>
+            <div class="platforms-tags">
+              <span class="platform-tag">Meta Ads</span>
+              <span class="platform-tag">Google Ads</span>
+              <span class="platform-tag">TikTok</span>
+              <span class="platform-tag">Snapchat</span>
+              <span class="platform-tag">WhatsApp</span>
+              <span class="platform-tag">LinkedIn</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Timeline Section -->
+      <section class="section section-alt" id="timeline">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-label">
+              <span class="label-num">04</span>
+              <span class="label-text">Timeline</span>
+            </div>
+            <h2 class="section-title">Implementation Roadmap</h2>
+            <p class="section-desc">
+              A phased approach to building your growth engine—each stage
+              creates the foundation for the next.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-track"></div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-marker">
+                <span>01</span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <span class="timeline-duration">Weeks 1–2</span>
+                  <h3>Discovery & Audit</h3>
+                </div>
+                <p>
+                  Deep analysis of current marketing, tracking, booking flow,
+                  and competitive landscape.
+                </p>
+                <div class="timeline-deliverables">
+                  <span class="deliverables-title">Deliverables</span>
+                  <ul>
+                    <li>Complete marketing audit report</li>
+                    <li>Competitive intelligence brief</li>
+                    <li>Tracking health assessment</li>
+                    <li>Prioritized opportunity roadmap</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-marker">
+                <span>02</span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <span class="timeline-duration">Weeks 2–4</span>
+                  <h3>Infrastructure Setup</h3>
+                </div>
+                <p>
+                  Implementation of server-side tracking, conversion APIs, and
+                  proper analytics.
+                </p>
+                <div class="timeline-deliverables">
+                  <span class="deliverables-title">Deliverables</span>
+                  <ul>
+                    <li>Server-side tracking live</li>
+                    <li>Conversion API integrations</li>
+                    <li>Booking system connected</li>
+                    <li>Baseline metrics established</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-marker">
+                <span>03</span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <span class="timeline-duration">Weeks 4–6</span>
+                  <h3>Campaign Launch</h3>
+                </div>
+                <p>
+                  Launch optimized campaigns across platforms with proper
+                  creative and measurement.
+                </p>
+                <div class="timeline-deliverables">
+                  <span class="deliverables-title">Deliverables</span>
+                  <ul>
+                    <li>Campaign architecture built</li>
+                    <li>Initial creative suite deployed</li>
+                    <li>Audiences configured & active</li>
+                    <li>Tracking fully validated</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-marker">
+                <span>04</span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <span class="timeline-duration">Ongoing</span>
+                  <h3>Optimization & Scale</h3>
+                </div>
+                <p>
+                  Continuous optimization based on performance data—scaling
+                  winners, testing new strategies.
+                </p>
+                <div class="timeline-deliverables">
+                  <span class="deliverables-title">Ongoing Activities</span>
+                  <ul>
+                    <li>Weekly performance optimization</li>
+                    <li>Creative testing & refresh</li>
+                    <li>Audience expansion testing</li>
+                    <li>Monthly strategy reviews</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="communication-card reveal">
+            <h4>Communication Cadence</h4>
+            <div class="comm-grid">
+              <div class="comm-item">
+                <span class="comm-freq">Weekly</span>
+                <span class="comm-desc">Performance reports via email</span>
+              </div>
+              <div class="comm-item">
+                <span class="comm-freq">Bi-Weekly</span>
+                <span class="comm-desc">Strategy calls (30-45 min)</span>
+              </div>
+              <div class="comm-item">
+                <span class="comm-freq">Monthly</span>
+                <span class="comm-desc">Comprehensive review deck</span>
+              </div>
+              <div class="comm-item">
+                <span class="comm-freq">Always</span>
+                <span class="comm-desc">Real-time dashboard access</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Investment Section -->
+      <section class="section" id="investment">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-label">
+              <span class="label-num">05</span>
+              <span class="label-text">Pricing</span>
+            </div>
+            <h2 class="section-title">Growth Options</h2>
+            <p class="section-desc">
+              Transparent engagement options designed to match your growth stage
+              and ambitions.
+            </p>
+          </div>
+
+          <div class="pricing-grid">
+            <div class="pricing-card reveal">
+              <div class="pricing-header">
+                <span class="pricing-tier">Foundation</span>
+                <p class="pricing-desc">
+                  Essential infrastructure and single-platform marketing
+                </p>
+              </div>
+              <div class="pricing-amount">
+                <span class="amount-range">INR 60K – 70k</span>
+                <span class="amount-period">/month</span>
+              </div>
+              <ul class="pricing-features">
+                <li><i data-lucide="check"></i>Single platform advertising</li>
+                <li><i data-lucide="check"></i>Basic tracking setup</li>
+                <li><i data-lucide="check"></i>Monthly reporting</li>
+                <li><i data-lucide="check"></i>WhatsApp integration</li>
+                <li><i data-lucide="check"></i>Monthly strategy call</li>
+              </ul>
+              <div class="pricing-ideal">
+                <span>Ideal for:</span> Studios beginning their digital journey
+              </div>
+            </div>
+
+            <div class="pricing-card pricing-featured reveal">
+              <div class="pricing-badge">Recommended</div>
+              <div class="pricing-header">
+                <span class="pricing-tier">Growth</span>
+                <p class="pricing-desc">
+                  Full-stack marketing with multi-channel campaigns
+                </p>
+              </div>
+              <div class="pricing-amount">
+                <span class="amount-range">INR 80K – 90K</span>
+                <span class="amouFnt-period">/month</span>
+              </div>
+              <ul class="pricing-features">
+                <li>
+                  <i data-lucide="check"></i>Multi-platform ads (Meta, Google,
+                  TikTok)
+                </li>
+                <li><i data-lucide="check"></i>Server-side tracking & APIs</li>
+                <li>
+                  <i data-lucide="check"></i>Website & booking optimization
+                </li>
+                <li><i data-lucide="check"></i>WhatsApp automation flows</li>
+                <li>
+                  <i data-lucide="check"></i>Retention & lifecycle marketing
+                </li>
+                <li><i data-lucide="check"></i>Bi-weekly strategy calls</li>
+                <li><i data-lucide="check"></i>Real-time dashboard</li>
+              </ul>
+              <div class="pricing-ideal">
+                <span>Ideal for:</span> Studios ready to scale professionally
+              </div>
+            </div>
+
+            <div class="pricing-card reveal">
+              <div class="pricing-header">
+                <span class="pricing-tier">Scale</span>
+                <p class="pricing-desc">
+                  Enterprise solution for aggressive expansion
+                </p>
+              </div>
+              <div class="pricing-amount">
+                <span class="amount-range">Custom</span>
+                <span class="amount-period">tailored to scope</span>
+              </div>
+              <ul class="pricing-features">
+                <li><i data-lucide="check"></i>Everything in Growth</li>
+                <li><i data-lucide="check"></i>Strategy and execution</li>
+                <li><i data-lucide="check"></i>Custom integrations</li>
+                <li><i data-lucide="check"></i>Advanced analytics</li>
+                <li>
+                  <i data-lucide="check"></i>Conversion optimisation across
+                  website and booking flows
+                </li>
+                <li><i data-lucide="check"></i>Weekly strategy sessions</li>
+              </ul>
+              <div class="pricing-ideal">
+                <span>Ideal for:</span> Multi-location aggressive growth
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-notes reveal">
+            <div class="note">
+              <i data-lucide="info"></i>
+              <p>
+                <strong>Ad Spend:</strong> Advertising budget is separate. We
+                recommend AED 8,000–15,000/month for testing, scaling based on
+                performance.
+              </p>
+            </div>
+            <div class="note">
+              <i data-lucide="info"></i>
+              <p>
+                <strong>Setup Fee:</strong> One-time infrastructure setup
+                (typically 1x monthly retainer) for initial tracking and
+                strategy development.
+              </p>
+            </div>
+            <div class="note">
+              <i data-lucide="info"></i>
+              <p>
+                <strong>Commitment:</strong> Minimum 3-month engagement
+                recommended for meaningful optimization and results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Next Steps Section -->
+      <section class="section section-dark" id="next-steps">
+        <div class="container">
+          <div class="next-steps-layout">
+            <div class="next-steps-content reveal">
+              <h2 class="next-steps-title">Ready to Begin?</h2>
+              <p class="next-steps-text">
+                This proposal is the start of a conversation. Let's discuss
+                Pincha's specific goals and explore whether we're the right fit
+                for each other.
+              </p>
+
+              <div class="steps-process">
+                <div class="process-item">
+                  <span class="process-num">1</span>
+                  <div class="process-info">
+                    <h4>Discovery Call</h4>
+                    <p>30-minute conversation about goals and questions</p>
+                  </div>
+                </div>
+                <div class="process-item">
+                  <span class="process-num">2</span>
+                  <div class="process-info">
+                    <h4>Customized Proposal</h4>
+                    <p>Refined scope based on your specific needs</p>
+                  </div>
+                </div>
+                <div class="process-item">
+                  <span class="process-num">3</span>
+                  <div class="process-info">
+                    <h4>Begin Partnership</h4>
+                    <p>Kick off discovery phase and start building</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="next-steps-cta reveal">
+              <div class="cta-card">
+                <div class="cta-icon">
+                  <i data-lucide="message-circle"></i>
+                </div>
+                <h3>Let's Connect</h3>
+                <p>
+                  No pressure, no commitment. Just an honest conversation about
+                  growth.
+                </p>
+                <div class="cta-links">
+                  <a href="mailto:your@email.com" class="cta-link">
+                    <i data-lucide="mail"></i>
+                    <span>staywithgauravv@gmail.com</span>
+                  </a>
+                  <a href="tel:+971XXXXXXXX" class="cta-link">
+                    <i data-lucide="phone"></i>
+                    <span>+91-9935329329</span>
+                  </a>
+                </div>
+                <a
+                  href="https://calendar.app.google/KpSsn4483WzzGxs1A"
+                  class="cta-button"
+                >
+                  <span>Schedule a Call</span>
+                  <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <span>Prepared exclusively for Pincha Yoga Studio</span>
+            <span class="footer-date" id="footerDate"></span>
+          </div>
+          <div class="footer-badge">
+            <i data-lucide="lock"></i>
+            <span>Confidential</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
